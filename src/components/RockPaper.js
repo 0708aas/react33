@@ -56,9 +56,13 @@ const RockPaper = () => {
 
             <div className="row">
                 <span className="span-3">You:</span>
-                <div className="col-6">{<img className="img-log" src={play} /> } </div>
+                <div className="col-6">
+                    <img alt="log" className="img-log" src={play} />
+                </div>
                 <span className="span-3">Comp:</span>
-                <div className="col-6">{<img className="img-log" src={compPlay}/>} </div>
+                <div className="col-6">
+                    <img alt="log" className="img-log" src={compPlay}/>
+                </div>
             </div>
 
         </div>
