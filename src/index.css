@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.open {
+    background: url("img/open.jpeg") center/cover no-repeat;
+    height: 100vh;
+}
+
+.menu {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 50px;
+
+}
+.button-open {
+    margin-bottom: 20px;
+    margin-top: 230px;
+    width: 200px;
+    padding: 10px;
+    background: cadetblue;
+    color: white;
+    font-size: 20px;
+}
+.button-open:last-child {
+    margin-top: 0;
+}
+.bg {
+    background: url("img/bgg.jpeg") center/cover no-repeat;
+    height: 100vh;
+}
+.row {
+    display: flex;
+}
+.col-6 {
+    width: 50%;
+    font-size: 30px;
+    padding: 0 100px;
+}
+.img-log {
+    height: 500px;
+    width: 300px;
+    border-radius: 50px;
+}
+.button {
+    width: 100px;
+    margin: 0 auto;
+    background: cadetblue;
+    padding: 5px;
+}
+.span {
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+    background: cadetblue;
+    border: 1px solid blue;
+    margin-left: 100px;
+}
+.span-1 {
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+    background: cadetblue;
+    border: 1px solid blue;
+    margin-left: 100px;
+}
+.span-3 {
+    text-align: center;
+    height: 20px;
+    padding: 0 20px;
+    width: 200px;
+    background: cadetblue;
+    border: 1px solid blue;
+    margin-left: 50px;
+}
+.bacground {
+    background: url("img/imj.jpg") center/cover no-repeat;
+    height: 100vh;
+    padding: 50px 0;
+}
+.input {
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+    padding: 7px;
+    text-align: center;
+    width: 200px;
+    background: none;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    font-weight: bold;
+    color: cyan;
+    padding: 7px;
+    background: none;
+    margin: 10px auto;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.won {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    padding: 7px;
+    text-align: center;
+}
+
+.lost {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    padding: 7px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.clear {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 5px;
+    background: none;
+}
+
+.help {
+    font-size: 20px;
+    color: lawngreen;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 5px;
+    background: none;
+}
+
+.res {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 5px;
+    background: none;
+}
+
+.attemp {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: springgreen;
+    font-size: 23px;
+
+}
